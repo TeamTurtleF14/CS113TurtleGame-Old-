@@ -1,0 +1,14 @@
+/*
+ * HW.cpp
+ *
+ *  Created on: Oct 27, 2014
+ *      Author: Tony
+ */
+
+#include <iostream>
+
+int main() {
+	std::cout << "Hello World!!" << std::endl;
+	//int* hello = new int[10];
+	return 0;
+}

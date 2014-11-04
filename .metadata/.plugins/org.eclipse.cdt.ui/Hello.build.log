@@ -1,0 +1,11 @@
+23:21:24 **** Incremental Build of configuration Debug for project Hello ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW.o" "..\\src\\HW.cpp" 
+..\src\HW.cpp: In function 'int main()':
+..\src\HW.cpp:20:13: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  Node hey = Node{10.2, 7};
+             ^
+g++ -o Hello.exe "src\\HW.o" 
+
+23:21:25 Build Finished (took 1s.233ms)
+

@@ -1,0 +1,9 @@
+
+#include <iostream>
+
+
+int main() {
+	stdcout << "helloooo" << std::endl;
+	return 0;
+}
+
