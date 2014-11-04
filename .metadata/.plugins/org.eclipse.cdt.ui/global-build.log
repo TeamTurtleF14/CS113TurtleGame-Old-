@@ -1,38 +1,12 @@
-11:39:50 **** Clean-only build of configuration Release for project ZerothLaw ****
-rm -rf src/main.o src/Test.o src/Test.d ZerothLaw.exe src/main.d 
-11:43:10 **** Rebuild of configuration Release for project ZerothLaw ****
+10:56:46 **** Rebuild of configuration Debug for project ZerothLaw ****
 Info: Internal Builder is used for build
-g++ -DSFML_DYNAMIC -O3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
-..\src\Test.cpp:1:29: fatal error: SFML/Graphics.hpp: No such file or directory
- #include <SFML/Graphics.hpp>
-                             ^
-compilation terminated.
-12:06:52 **** Rebuild of configuration Debug for project SFMLHelloWorld ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o ZerothLaw.exe "src\\main.o" 
+Info: Nothing to build for ZerothLaw
+Info: Nothing to build for ZerothLaw
+Info: Nothing to build for ZerothLaw
+Info: Nothing to build for ZerothLaw
+10:57:20 **** Incremental Build of configuration Debug for project ZerothLaw ****
 Info: Internal Builder is used for build
-g++ -DSFML_DYNAMIC "-IC:\\SFML-2.1\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SFMLHelloWorld.o" "..\\src\\SFMLHelloWorld.cpp" 
-g++ "-LC:\\SFML-2.1\\lib" -o SFMLHelloWorld.exe "src\\SFMLHelloWorld.o" -lsfml-graphics-d -lsfml-window-d -lsfml-audio-d -lsfml-system-d 
-12:06:54 **** Incremental Build of configuration Release for project ZerothLaw ****
-Info: Internal Builder is used for build
-g++ -DSFML_DYNAMIC -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -DSFML_DYNAMIC -O3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
-..\src\Test.cpp:1:29: fatal error: SFML/Graphics.hpp: No such file or directory
- #include <SFML/Graphics.hpp>
-                             ^
-compilation terminated.
-Info: Nothing to build for SFMLHelloWorld
-12:07:42 **** Incremental Build of configuration Release for project ZerothLaw ****
-Info: Internal Builder is used for build
-g++ -DSFML_DYNAMIC "-IC:\\SFML-2.1\\include" -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-g++ -DSFML_DYNAMIC "-IC:\\SFML-2.1\\include" -O3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
-g++ "-LC:\\SFML-2.1\\lib" -o ZerothLaw.exe "src\\main.o" "src\\Test.o" -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system 
-src\Test.o:Test.cpp:(.text.startup+0x0): multiple definition of `main'
-src\main.o:main.cpp:(.text.startup+0x0): first defined here
-collect2.exe: error: ld returned 1 exit status
-Info: Nothing to build for SFMLHelloWorld
-12:09:15 **** Incremental Build of configuration Release for project ZerothLaw ****
-Info: Internal Builder is used for build
-g++ -DSFML_DYNAMIC "-IC:\\SFML-2.1\\include" -O3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
-g++ "-LC:\\SFML-2.1\\lib" -o ZerothLaw.exe "src\\main.o" "src\\Test.o" -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system 
-src\Test.o:Test.cpp:(.text.startup+0x0): multiple definition of `main'
-src\main.o:main.cpp:(.text.startup+0x0): first defined here
-collect2.exe: error: ld returned 1 exit status
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o ZerothLaw.exe "src\\main.o" 

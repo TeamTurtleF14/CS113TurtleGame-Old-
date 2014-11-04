@@ -1,0 +1,20 @@
+/*
+ * TestStruct.h
+ *
+ *  Created on: Nov 2, 2014
+ *      Author: Tony
+ */
+
+#ifndef TESTSTRUCT_H_
+#define TESTSTRUCT_H_
+
+#include <iostream>
+
+struct Node {
+	float value;
+	int test;
+};
+
+
+
+#endif /* TESTSTRUCT_H_ */
