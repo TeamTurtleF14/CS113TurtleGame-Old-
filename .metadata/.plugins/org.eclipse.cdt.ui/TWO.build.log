@@ -1,0 +1,20 @@
+22:28:50 **** Incremental Build of configuration Debug for project TWO ****
+Info: Internal Builder is used for build
+g++ -DSFML_DYNAMIC "-IC:\\SFML-2.1\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TWO.o" "..\\src\\TWO.cpp" 
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cwchar:44:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\postypes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\iosfwd:40,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\ios:38,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\ostream:38,
+                 from C:\SFML-2.1\include/SFML/System/Err.hpp:32,
+                 from C:\SFML-2.1\include/SFML/System.hpp:34,
+                 from C:\SFML-2.1\include/SFML/Window.hpp:32,
+                 from C:\SFML-2.1\include/SFML/Graphics.hpp:32,
+                 from ..\src\TWO.cpp:1:
+c:\mingw\include\wchar.h:26:20: fatal error: stddef.h: No such file or directory
+ #include <stddef.h>
+                    ^
+compilation terminated.
+
+22:28:50 Build Finished (took 203ms)
+
